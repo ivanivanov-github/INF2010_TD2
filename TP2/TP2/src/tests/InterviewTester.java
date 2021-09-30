@@ -33,7 +33,7 @@ public class InterviewTester {
 
     private static Boolean testCompareFrequencies() {
         int result1 = 0, result2 = 0;
-        int expected1 = 65, expected2 = 62;
+        int expected1 = 67, expected2 = 64;
         try {
             result1 = Interview.compareFrequencies("quote1.txt", "quote2.txt");
             result2 = Interview.compareFrequencies("quote2.txt", "quote3.txt");
